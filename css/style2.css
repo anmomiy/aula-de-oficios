@@ -1,0 +1,38 @@
+.color1{
+    background-color: #00c2cb;
+}
+.hero-wrap .overlay{
+    background: #FFA216;
+}
+.letra1{
+    color:#00C2CB;
+
+}
+.heading-section h2{
+    color:#FFA216;
+}
+.heading-section h2 span{
+    color:#156384;
+}
+.letra2{
+    color:#FFA216;
+}
+.pricing-entry .img{
+    height: 450px
+}
+.imagen{
+    height:70px;
+    width:150px;
+    border-radius: 30px;
+}
+.imagen2{
+    height:70px;
+    width:70px;
+    border-radius: 30px;
+}
+.logo{
+    width:250px
+}
+.pricing-entry .button, .pricing-entry > div p{
+    margin-bottom: 10px;
+}
