@@ -53,3 +53,26 @@
     width: 100%;
     height: 100%;
 }
+.banner-insta{
+    text-align: center;
+    background-color: #FFA216;
+    position:sticky;
+    top:0;
+    z-index: 10000;
+    color:white;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.banner-insta > span{
+    height: 55px;
+    line-height: 55px;
+}
+.banner-insta > a{
+    color:white;
+    padding:0;
+    height: 55px;
+    padding: 2.5px;
+}
