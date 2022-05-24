@@ -53,29 +53,29 @@
     width: 100%;
     height: 100%;
 }
-.banner-insta{
-    text-align: center;
-    background-color: #FFA216;
-    position:sticky;
-    top:0;
-    z-index: 10000;
-    color:white;
-    font-size: 18px;
+.iconoWpp {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 5; 
+    min-width: 60px;
+    max-width: 120px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    border-radius: 12px;
 }
-.banner-insta > span{
-    height: 55px;
-    line-height: 55px;
+.iconoWpp .iconodona img {
+    width: 60px; 
 }
-.banner-insta > a{
-    color:white;
-    padding:0;
-    height: 55px;
-    padding: 2.5px;
-}
+.iconoWpp p{
+    margin:0;
+    font-weight: 900;
+    text-align: center;
+}  
 
 .logo{
     width: 250px;
@@ -134,4 +134,10 @@
     .form-map-box{
         display: flex;
         flex-wrap: wrap-reverse;
+    }
+
+    .contact-1 img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
     }
